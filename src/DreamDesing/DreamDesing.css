@@ -1,0 +1,24 @@
+.desing_heading {
+    color: #1f1f1f;
+  
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+
+
+  @media (max-width: 576px) {
+    .desing_heading {
+      color: #1f1f1f;
+      margin-bottom: 0;
+      font-family: Inter;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  

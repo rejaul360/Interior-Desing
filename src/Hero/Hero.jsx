@@ -7,7 +7,8 @@ const Hero = () => {
     <div className="max-w-7xl mx-auto">
       <div className="pt-10 ">
         <div className="main_hero grid grid-cols-1 md:grid-cols-2 p-2">
-          <div className="">
+            <div className="flex justify-center">
+            <div className=" ">
             <h1 className="text-center md:text-left mb-4 h_heading">
               Interior Design
             </h1>
@@ -18,6 +19,7 @@ const Hero = () => {
               into the epitome of luxury and sophistication
             </p>
           </div>
+            </div>
           <div className="flex lg:justify-end sm:justify-center">
             <img className="rounded" src={h_img} alt="" />
           </div>

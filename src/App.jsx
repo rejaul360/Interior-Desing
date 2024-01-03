@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./Button/Button";
+import DreamDesing from "./DreamDesing/DreamDesing";
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
 import Services from "./Services/Services";
@@ -12,6 +13,7 @@ function App() {
      <Hero></Hero>
      <SubHero></SubHero>
      <Services></Services>
+     <DreamDesing></DreamDesing>
      {/* <Button></Button> */}
     </>
   );
