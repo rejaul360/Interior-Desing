@@ -1,0 +1,50 @@
+/* font-bold text-5xl text-black font-inter */
+
+.count_up_style{
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+    font-family: inter;
+}
+
+/* font-semibold text-2xl text-black */
+
+.count_up_desc{
+    font-weight: 500;
+    font-size: 26px;
+    color: black;
+}
+
+
+
+
+@media (max-width: 576px) { 
+    .count_up_style{
+        font-weight: bold;
+        font-size: 22px;
+        color: black;
+        font-family: inter;
+    }
+    
+    .count_up_desc{
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+    }
+    .counter_section{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .btn_style{
+        font-size: 16px;
+        padding: 12px 20px;
+        font-family: Inter;
+        border: 1px solid black ;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    
+    
+  }

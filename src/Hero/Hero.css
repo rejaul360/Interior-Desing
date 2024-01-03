@@ -1,0 +1,52 @@
+.h_heading {
+  color: #1f1f1f;
+
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+.h_pera {
+  color: #545454;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.hv_effect:hover{
+    background-color: white;
+    border: 1px solid black ;
+    color: black;
+    font-weight: bolder;
+
+}
+
+
+@media (max-width: 576px) { 
+  .h_heading {
+    color: #1f1f1f;
+  
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .h_pera {
+    color: #545454;
+    margin-bottom: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  
+}

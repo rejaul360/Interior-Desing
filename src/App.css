@@ -1,0 +1,31 @@
+.font_style {
+  font-family: Inter;
+}
+
+.h_heading {
+  color: #1f1f1f;
+
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.btn_style{
+	position: relative;
+	padding: 16px 40px;
+	/* box-shadow: 0 0 10px 5px rgba(119, 118, 118, 0.4); */
+	color: #999;
+	text-decoration: none;
+	/* text-transform: uppercase; */
+	/* letter-spacing: 4px; */
+	font: 700 22px consolas;
+	overflow: hidden;
+    font-family: Inter;
+	border-radius: 5px;
+    border: 1px solid black;
+}
+
+
