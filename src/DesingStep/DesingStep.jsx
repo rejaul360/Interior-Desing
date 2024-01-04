@@ -13,7 +13,7 @@ const DesingStep = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* <!-- Grid Item 1 --> */}
           <div className="">
-            <div className="mb-20">
+            <div className="md:mb-20">
               <h1 className="desing_heading text-center md:text-start">
                 Designing Your Dream in Three Simple Steps
               </h1>
@@ -23,9 +23,9 @@ const DesingStep = () => {
                 <img src={img2} alt="" />
               </div>
               <div className="content_right" >
-                <div className="card card-side p-0 mb-28 ">
+                <div className="card card-side p-0 md:mb-28  mb-20 ">
                   <>
-                    <img className="w-20 h-20 " src={logo1} alt="picture" />
+                    <img className="w-20 h-20 logo md:display" src={logo1} alt="picture" />
                   </>
                   <div className="card-body py-0 px-0  ">
                     <h2 className=" mb-4 service_sub_heading">Start Project</h2>
@@ -36,9 +36,9 @@ const DesingStep = () => {
                     </p>
                   </div>
                 </div>
-                <div className="card card-side p-0 mb-28 ">
+                <div className="card card-side p-0 md:mb-28 mb-20 ">
                   <>
-                    <img className="w-20 h-20 " src={logo2} alt="picture" />
+                    <img className="w-20 h-20 logo" src={logo2} alt="picture" />
                   </>
                   <div className="card-body py-0 px-0   ">
                     <h2 className=" mb-4 service_sub_heading">Craft</h2>
@@ -51,7 +51,7 @@ const DesingStep = () => {
                 </div>
                 <div className="card card-side p-0  ">
                   <>
-                    <img className="w-20 h-20 " src={logo3} alt="picture" />
+                    <img className="w-20 h-20 logo" src={logo3} alt="picture" />
                   </>
                   <div className="card-body py-0 px-0   ">
                     <h2 className=" mb-4 service_sub_heading">Execute</h2>
