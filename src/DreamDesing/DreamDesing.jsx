@@ -15,7 +15,7 @@ const DreamDesing = () => {
           <div>
             <div className=" ">
               <div>
-                <h1 className="desing_heading text-center md:text-start mb-5">
+                <h1 className="desing_heading  text-center md:text-start mb-5">
                   Designing Your Dream With Brilliance
                 </h1>
                 <p className="text-center md:text-left h_pera md:mt-4 md:mb-4">
